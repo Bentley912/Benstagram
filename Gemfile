@@ -25,7 +25,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'haml', '~> 4.0', '>= 4.0.7'
 
 #  bootstrap
-gem 'bootstrap', '~> 4.0.0.alpha3.1'
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 
 # Simple Forms
 gem 'simple_form', '~> 3.3', '>= 3.3.1'
