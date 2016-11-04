@@ -11,11 +11,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20161104200329) do
+=======
+ActiveRecord::Schema.define(version: 20161104185604) do
+>>>>>>> origin/styling
 
   create_table "pics", force: :cascade do |t|
     t.string   "title"
     t.text     "description"
+<<<<<<< HEAD
     t.datetime "created_at",         null: false
     t.datetime "updated_at",         null: false
     t.integer  "user_id"
@@ -23,6 +28,11 @@ ActiveRecord::Schema.define(version: 20161104200329) do
     t.string   "image_content_type"
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
+=======
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+    t.integer  "user_id"
+>>>>>>> origin/styling
   end
 
   add_index "pics", ["user_id"], name: "index_pics_on_user_id"
