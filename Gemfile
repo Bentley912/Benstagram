@@ -32,7 +32,7 @@ gem 'simple_form', '~> 3.3', '>= 3.3.1'
 
 gem 'devise', '~> 4.2'
 
-<<<<<<< HEAD
+
 gem 'paperclip', '~> 4.2.0'
 
 =======
