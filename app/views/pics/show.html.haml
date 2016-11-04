@@ -1,0 +1,18 @@
+<<<<<<< HEAD
+= image_tag @pic.image.url(:medium)
+%h1=@pic.title
+%p= @pic.description
+
+=======
+%h1=@pic.title
+%p= @pic.description
+%p
+>>>>>>> origin/styling
+Pic by
+= @pic.user.email
+
+%br
+
+=link_to "Back", root_path
+=link_to "Edit", edit_pic_path
+=link_to "Delete", pic_path, method: :delete, data:{confirm:"Are You Sure You Want to Delete??"}
